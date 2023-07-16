@@ -1,0 +1,43 @@
+{
+    "name": "lab0-frontend", // 项目名称
+    "version": "1.0.0", // 项目版本号
+    "description": "A simple web application for managing components", // 项目描述
+    "scripts": {
+      "serve": "vue-cli-service serve", // 运行开发服务器
+      "build": "vue-cli-service build", // 构建生产版本
+      "lint": "vue-cli-service lint" // 运行代码检查
+    },
+    "dependencies": {
+      "axios": "^0.21.4", // 用于发起HTTP请求
+      "vue": "^3.2.14", // Vue框架
+      "vue-router": "^4.0.12" // Vue路由
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0", // Babel插件
+      "@vue/cli-plugin-eslint": "~4.5.0", // ESLint插件
+      "@vue/cli-service": "~4.5.0", // Vue CLI服务
+      "eslint": "^7.32.0", // ESLint代码检查工具
+      "eslint-plugin-vue": "^7.17.0", // ESLint插件用于支持Vue代码检查
+      "vue-template-compiler": "^2.6.14" // Vue模板编译器
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/vue3-essential",
+        "eslint:recommended"
+      ],
+      "parserOptions": {
+        "parser": "babel-eslint"
+      },
+      "rules": {}
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
+  
